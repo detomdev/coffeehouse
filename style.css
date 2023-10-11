@@ -1,0 +1,48 @@
+/* Default Styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	outline: none;
+	font-family: "Poppins", sans-serif;
+}
+
+html {
+	font-size: 62.5%;
+}
+/* End Default Styles */
+
+/* Container */
+.container {
+	width: 100%;
+	height: 100vh;
+}
+
+/* Navigation */
+.navbar {
+	width: 100%;
+	height: 10rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	border-bottom: 0.1rem solid rgba(255, 255, 255, 0.1);
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+/* End Navigation */
+
+/* Landing*/
+.banner {
+	display: none;
+}
+/* End Landing*/
+/* End Container */
